@@ -8,6 +8,7 @@
 import Foundation
 
 public enum Bias {
+	
 	case add
 	case remove
 }
