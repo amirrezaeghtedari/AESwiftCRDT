@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E162719D2594AC7900158BC3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E162719C2594AC7900158BC3 /* README.md */; };
 		E1FC72222593AB190023FEA7 /* AESwiftCRDT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FC72182593AB180023FEA7 /* AESwiftCRDT.framework */; };
 		E1FC72272593AB190023FEA7 /* AEDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC72262593AB190023FEA7 /* AEDictionaryTests.swift */; };
 		E1FC72292593AB190023FEA7 /* AESwiftCRDT.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FC721B2593AB180023FEA7 /* AESwiftCRDT.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E162719C2594AC7900158BC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E1FC72182593AB180023FEA7 /* AESwiftCRDT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AESwiftCRDT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FC721B2593AB180023FEA7 /* AESwiftCRDT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AESwiftCRDT.h; sourceTree = "<group>"; };
 		E1FC721C2593AB180023FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AESwiftCRDT/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -61,6 +63,7 @@
 		E1FC720E2593AB180023FEA7 = {
 			isa = PBXGroup;
 			children = (
+				E162719C2594AC7900158BC3 /* README.md */,
 				E1FC721A2593AB180023FEA7 /* AESwiftCRDT */,
 				E1FC72252593AB190023FEA7 /* AESwiftCRDTTests */,
 				E1FC72192593AB180023FEA7 /* Products */,
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E162719D2594AC7900158BC3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
