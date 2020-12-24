@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct AEDictionary<Key, Value> where Key: Hashable, Key: Comparable, Value: Comparable {
+public struct AEDictionary<Key, Value> where Key: Hashable {
 	
 	private var addDictioanary 		= Dictionary<Key, TimestampValue<Value>>()
 	private var removeDictionary	= Dictionary<Key, TimestampValue<Value>>()

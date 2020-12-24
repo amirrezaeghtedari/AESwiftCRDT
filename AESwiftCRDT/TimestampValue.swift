@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TimestampValue<Value>: Comparable where Value: Comparable {
+struct TimestampValue<Value> {
 	
 	let value: Value
 	private(set) var timestamp: Date
@@ -35,13 +35,5 @@ struct TimestampValue<Value>: Comparable where Value: Comparable {
 		case .orderedDescending:
 			return .later
 		}
-	}
-	
-	static func < (lhs: TimestampValue<Value>, rhs: TimestampValue<Value>) -> Bool {
-		return lhs.value < rhs.value
-	}
-	
-	static func == (lhs: TimestampValue<Value>, rhs: TimestampValue<Value>) -> Bool {
-		return lhs == rhs
 	}
 }
