@@ -1,3 +1,3 @@
-AESwiftCRDT is an iOS framework that contains only the AEDictionary. The AEDictionary is a confliction-free dictionary that has been implemented using LWW-Element-Set technique.
+AESwiftCRDT is an iOS framework to implement CRDTs in Swift. The project started as a take home task by GoodNotes company.
 
-This project started as a take-home assignment by GoodNotes company.
+At the moment it contains only the AEDictionary. It is a confliction-free dictionary that has been implemented using LWW-Element-Set technique.
