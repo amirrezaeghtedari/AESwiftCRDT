@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E162719D2594AC7900158BC3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E162719C2594AC7900158BC3 /* README.md */; };
+		E1EF6A0A25A4A10300CA3319 /* TimestampValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF6A0925A4A10300CA3319 /* TimestampValueTests.swift */; };
 		E1FC72222593AB190023FEA7 /* AESwiftCRDT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FC72182593AB180023FEA7 /* AESwiftCRDT.framework */; };
 		E1FC72272593AB190023FEA7 /* AEDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC72262593AB190023FEA7 /* AEDictionaryTests.swift */; };
 		E1FC72292593AB190023FEA7 /* AESwiftCRDT.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FC721B2593AB180023FEA7 /* AESwiftCRDT.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		E162719C2594AC7900158BC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1EF6A0925A4A10300CA3319 /* TimestampValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimestampValueTests.swift; sourceTree = "<group>"; };
 		E1FC72182593AB180023FEA7 /* AESwiftCRDT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AESwiftCRDT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FC721B2593AB180023FEA7 /* AESwiftCRDT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AESwiftCRDT.h; sourceTree = "<group>"; };
 		E1FC721C2593AB180023FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AESwiftCRDT/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E1FC72262593AB190023FEA7 /* AEDictionaryTests.swift */,
+				E1EF6A0925A4A10300CA3319 /* TimestampValueTests.swift */,
 				E1FC72282593AB190023FEA7 /* Info.plist */,
 			);
 			path = AESwiftCRDTTests;
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EF6A0A25A4A10300CA3319 /* TimestampValueTests.swift in Sources */,
 				E1FC72272593AB190023FEA7 /* AEDictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

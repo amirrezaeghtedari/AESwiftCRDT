@@ -44,7 +44,7 @@ class AEDictionaryTests: XCTestCase {
 		XCTAssert(sut.value(key: 2) == "Baran")
     }
 	
-	func test_sameTimeWithAddBias_success() {
+	func test_synchronousOperationWithAddBias_success() {
 		
 		var sut = AEDictionary<Int, String>(bias: .add)
 		
@@ -55,7 +55,7 @@ class AEDictionaryTests: XCTestCase {
 		XCTAssert(sut.value(key: 1) == "Amir")
 	}
 	
-	func test_sameTimeWithRemoveBias_success() {
+	func test_synchronousOperationWithRemoveBias_success() {
 		
 		var sut = AEDictionary<Int, String>(bias: .remove)
 		

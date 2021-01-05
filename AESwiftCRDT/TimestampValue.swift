@@ -14,7 +14,7 @@ struct TimestampValue<Value> {
 	
 	init(value: Value, timestamp: Date = Date()) {
 		self.value = value
-		self.timestamp = Date()
+		self.timestamp = timestamp
 	}
 	
 	mutating func refreshTimestamp(withTimestamp: Date = Date()) {

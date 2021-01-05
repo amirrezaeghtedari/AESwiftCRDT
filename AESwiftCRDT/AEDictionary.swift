@@ -42,6 +42,7 @@ public struct AEDictionary<Key, Value> where Key: Hashable {
 			return availableTimestampValue.value
 		}
 		
+		print(deletedTimestampValue.timestamp)
 		let compareResult = availableTimestampValue.compareTimestamp(to: deletedTimestampValue)
 		
 		switch compareResult {
